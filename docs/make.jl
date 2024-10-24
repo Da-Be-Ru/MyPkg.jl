@@ -7,6 +7,7 @@ makedocs(;
     modules=[MyPkg],
     authors="Daniel Runge <runge@wias-berlin.de> and contributors",
     sitename="MyPkg.jl",
+    clean=false,
     format=Documenter.HTML(;
         canonical="https://Da-Be-Ru.github.io/MyPkg.jl",
         edit_link="main",
